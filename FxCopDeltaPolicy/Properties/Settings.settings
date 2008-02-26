@@ -1,0 +1,55 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CustomPolicies.FxCopDeltaPolicy.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FxCopCommandPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\Microsoft Visual Studio 8\Team Tools\Static Analysis Tools\FxCop\FxCopCmd.exe</Value>
+    </Setting>
+    <Setting Name="RuleAssemblies" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DisabledRules" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Microsoft.Globalization#CA1300&lt;/string&gt;
+  &lt;string&gt;Microsoft.Globalization#CA1301&lt;/string&gt;
+  &lt;string&gt;Microsoft.Globalization#CA1302&lt;/string&gt;
+  &lt;string&gt;Microsoft.Globalization#CA1303&lt;/string&gt;
+  &lt;string&gt;Microsoft.Globalization#CA1304&lt;/string&gt;
+  &lt;string&gt;Microsoft.Globalization#CA1305&lt;/string&gt;
+  &lt;string&gt;Microsoft.Globalization#CA1306&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2116&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2117&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2105&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2115&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2102&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2104&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2122&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2114&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2123&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2111&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2108&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2107&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2103&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2100&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2118&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2109&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2119&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2106&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2110&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2120&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2112&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2127&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2128&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2129&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2101&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2121&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2126&lt;/string&gt;
+  &lt;string&gt;Microsoft.Security#CA2124&lt;/string&gt;
+  &lt;string&gt;Microsoft.Usage#CA2209&lt;/string&gt;
+  &lt;string&gt;Microsoft.Design#CA2210&lt;/string&gt;
+  &lt;string&gt;Microsoft.Design#CA1014&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

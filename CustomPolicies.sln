@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02037A95-0207-4A6F-AC0B-2E9561DC28ED}"
+	ProjectSection(SolutionItems) = preProject
+		CustomPolicies.vsmdi = CustomPolicies.vsmdi
+		localtestrun.testrunconfig = localtestrun.testrunconfig
+		bin\Rhino.Mocks.dll = bin\Rhino.Mocks.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckinAnalysis", "CheckinAnalysis\CheckinAnalysis.csproj", "{AEA94EAF-E65D-4ED2-84BA-284A5AF9BCF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckinAnalysis.Tests", "CheckinAnalysis.Tests\CheckinAnalysis.Tests.csproj", "{CD979225-E0EE-4C77-99CB-DBBECD16C0DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxCopDeltaPolicy", "FxCopDeltaPolicy\FxCopDeltaPolicy.csproj", "{42435E5D-B7F9-4F7E-A316-00B6274A067B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{08BED9B7-E62D-4AB2-9C63-835319FBBB72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugSymbolsPolicy", "DebugSymbolPolicy\DebugSymbolsPolicy.csproj", "{E949C264-E426-4139-806C-C1865AEF034C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsapp:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CheckinAnalysis\\CheckinAnalysis.csproj
+		SccProjectName1 = CheckinAnalysis
+		SccLocalPath1 = CheckinAnalysis
+		SccProjectUniqueName2 = CheckinAnalysis.Tests\\CheckinAnalysis.Tests.csproj
+		SccProjectName2 = CheckinAnalysis.Tests
+		SccLocalPath2 = CheckinAnalysis.Tests
+		SccProjectUniqueName3 = FxCopDeltaPolicy\\FxCopDeltaPolicy.csproj
+		SccProjectName3 = FxCopDeltaPolicy
+		SccLocalPath3 = FxCopDeltaPolicy
+		SccProjectUniqueName4 = Setup\\Setup.vdproj
+		SccProjectName4 = Setup
+		SccLocalPath4 = Setup
+		SccProjectUniqueName5 = DebugSymbolPolicy\\DebugSymbolsPolicy.csproj
+		SccProjectName5 = DebugSymbolPolicy
+		SccLocalPath5 = DebugSymbolPolicy
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CustomPolicies.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEA94EAF-E65D-4ED2-84BA-284A5AF9BCF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA94EAF-E65D-4ED2-84BA-284A5AF9BCF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA94EAF-E65D-4ED2-84BA-284A5AF9BCF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA94EAF-E65D-4ED2-84BA-284A5AF9BCF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD979225-E0EE-4C77-99CB-DBBECD16C0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD979225-E0EE-4C77-99CB-DBBECD16C0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD979225-E0EE-4C77-99CB-DBBECD16C0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD979225-E0EE-4C77-99CB-DBBECD16C0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42435E5D-B7F9-4F7E-A316-00B6274A067B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42435E5D-B7F9-4F7E-A316-00B6274A067B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42435E5D-B7F9-4F7E-A316-00B6274A067B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42435E5D-B7F9-4F7E-A316-00B6274A067B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BED9B7-E62D-4AB2-9C63-835319FBBB72}.Debug|Any CPU.ActiveCfg = Debug
+		{08BED9B7-E62D-4AB2-9C63-835319FBBB72}.Release|Any CPU.ActiveCfg = Release
+		{E949C264-E426-4139-806C-C1865AEF034C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E949C264-E426-4139-806C-C1865AEF034C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E949C264-E426-4139-806C-C1865AEF034C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E949C264-E426-4139-806C-C1865AEF034C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

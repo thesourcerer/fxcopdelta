@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfDebugSymbolConstraint xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DebugSymbolConstraint>
+    <ConfigurationName>Debug</ConfigurationName>
+    <RequestedDebugInfo>Full</RequestedDebugInfo>
+  </DebugSymbolConstraint>
+  <DebugSymbolConstraint>
+    <ConfigurationName>Release</ConfigurationName>
+    <RequestedDebugInfo>Full</RequestedDebugInfo>
+  </DebugSymbolConstraint>
+</ArrayOfDebugSymbolConstraint>
