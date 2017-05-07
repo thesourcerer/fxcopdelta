@@ -1,0 +1,2 @@
+**Project Description**
+A custom check-in policy for Visual Studio Team System that runs FxCop rules before performing a check-in. FxCop Delta differs from the normal static analysis policy by running FxCop only on the code that changed since checking out, thus eliminating tens or hundreds of static analysis errors every time you check-in.
